@@ -14,6 +14,7 @@ function App() {
 
   const noHaceNada = () => {
     console.log('eliminame')
+    console.log('eliminame por 2')
   }
 
   const backspace = ()=>{
