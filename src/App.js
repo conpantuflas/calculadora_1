@@ -12,6 +12,10 @@ function App() {
     setResult("");
   }
 
+  const noHaceNada = () => {
+    console.log('eliminame')
+  }
+
   const backspace = ()=>{
     setResult(result.slice(0,-1))
   }
