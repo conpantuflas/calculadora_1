@@ -14,7 +14,9 @@ function App() {
 
   const noHaceNada = () => {
     console.log('eliminame')
+    console.log('nuevo')
   }
+  //Hola
 
   const backspace = ()=>{
     setResult(result.slice(0,-1))
