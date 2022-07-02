@@ -4,7 +4,6 @@ import "./App.css"
 function App() {
   const [result, setResult] = useState("");
 
-  // mojon
   const handleClick = (e)=>{
     setResult(result.concat(e.target.name));
   }
@@ -15,6 +14,7 @@ function App() {
 
   const noHaceNada = () => {
     console.log('eliminame')
+    console.log('eliminame por 2')
   }
 
   const backspace = ()=>{
